@@ -4,6 +4,7 @@ body {
     background-color: #f0f0f0; /* A cor do plano de fundo da página */
     color: #333333; /* A cor do texto */ 
 }
+
 h1 {
     color: #5988FF; /* A cor do cabeçalho */
     font-size: 24px; /* A cor da fonte do cabeçalho */
@@ -17,6 +18,11 @@ h1 {
   50% { color: #0048ff; }
   100% { color: #5988FF; }
 }
+p {
+    line-height: 1.6; /* Espaçamento entre linhas do parágrafo */
+    font-size: 15px; /* Tamanho da fonte do parágrafo */
+}
+
 h2 {
     color: #FD98FB; /* A cor do subcabeçalho */
     font-size: 20px; /* O tamanho da fonte do subcabeçalho */
@@ -30,7 +36,37 @@ h2 {
   50% { color: #ff00ff; }
   100% { color: #FD98FB; }
 }
+li {
+    margin-bottom: 8px; /* Espaçamento entre os itens da lista */
+    font-size: 15px; /* Tamanho da fonte dos itens da lista */
+}
+
 iframe {
     float: right;
     margin-left: 20px;
 }
+bloco1 {
+  display: inline-block;
+  background-color: #D6FF6B;
+  padding: 8px 14px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin: 8px 0;
+}
+bloco2 {
+  display: inline-block;
+  background-color: #D6FF6B;
+  padding: 8px 14px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin: 8px 0;
+}
+bloco2_5 {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin: 8px 0;
+}
+
