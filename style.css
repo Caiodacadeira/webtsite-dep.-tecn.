@@ -1,0 +1,36 @@
+body {
+    font-family: Arial,  sans-serif; /* Font family */
+    font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #f0f0f0; /* A cor do plano de fundo da página */
+    color: #333333; /* A cor do texto */ 
+}
+h1 {
+    color: #5988FF; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+h1 {
+  animation: color-change-h1 3s infinite;
+}
+@keyframes color-change-h1 {
+  0% { color: #5988FF; }
+  50% { color: #0048ff; }
+  100% { color: #5988FF; }
+}
+h2 {
+    color: #FD98FB; /* A cor do subcabeçalho */
+    font-size: 20px; /* O tamanho da fonte do subcabeçalho */
+    font-family: 'Trebuchet MS', sans-serif; /* A font usada no subcabeçalho */
+}
+h2 {
+  animation: color-change-h2 3s infinite;
+}
+@keyframes color-change-h2 {
+  0% { color: #FD98FB; }
+  50% { color: #ff00ff; }
+  100% { color: #FD98FB; }
+}
+iframe {
+    float: right;
+    margin-left: 20px;
+}
